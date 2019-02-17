@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/spacex">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:text="18 Educational Android\nApps for Teachers"
+        android:textColor="#FFFFFF"/>
+
+    <!--Fila 1-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:orientation="horizontal"
+    android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="match_parent"
+        android:background="#C9FFFFFF"
+        android:padding="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#9B2E2E"
+        android:textAlignment="center"
+        android:text="Android\nNote\nTaking\nApps"
+        />
+        <!--Imagen 1 de la fila-->
+    <LinearLayout
+        android:layout_width="95dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C9FFFFFF"
+        android:padding="5dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/imagen1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#272B31"/>
+        <TextView
+            android:textSize="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="Google Keep"/>
+    </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen2"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Evernote"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen3"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="OneNote"/>
+        </LinearLayout>
+
+
+</LinearLayout>
+    <!--Fila 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="#C9FFFFFF"
+            android:padding="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#9B2E2E"
+            android:textAlignment="center"
+            android:text="Android\nPortafolio\nApps"
+            />
+        <!--Imagen 1 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen4"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Weebly"/>
+        </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen5"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Three Ring"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen6"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Seesaw"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Fila 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="#C9FFFFFF"
+            android:padding="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#9B2E2E"
+            android:textAlignment="center"
+            android:text="Android Reference Apps"
+            />
+        <!--Imagen 1 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen7"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Google Slides"/>
+        </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen8"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="PowerPoint"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen9"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Prezi Viewer"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Fila 4-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="#C9FFFFFF"
+            android:paddingVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#9B2E2E"
+            android:textAlignment="center"
+            android:text="Android\nPresentation\nApps"
+            />
+        <!--Imagen 1 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen10"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="EasyBib"/>
+        </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen11"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Cite this for me"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen12"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Prezi Viewer"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Fila 6-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="#C9FFFFFF"
+            android:padding="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#9B2E2E"
+            android:textAlignment="center"
+            android:text="Android\nVideo\nApps"
+            />
+        <!--Imagen 1 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen13"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Magistro video Editor &amp; Maker"/>
+        </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen14"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Video Editor"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen15"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Animoto Video Maker"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Fila 7 (La fila 5 es un invento del gobierno )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <!--Bloque de texto primera fila-->
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:background="#C9FFFFFF"
+            android:paddingVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#9B2E2E"
+            android:textAlignment="center"
+            android:text="Android\nMind mapping\nApps"
+            />
+        <!--Imagen 1 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen16"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="SimpleMind"/>
+        </LinearLayout>
+        <!--Imagen 2 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen17"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Mind Master"/>
+        </LinearLayout>
+        <!--Imagen 3 de la fila-->
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9FFFFFF"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/imagen18"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#272B31"/>
+            <TextView
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Mindomo"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
